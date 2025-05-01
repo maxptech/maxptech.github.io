@@ -8,12 +8,16 @@
   <style>
     body { background-color: #0f1a2c; color: #ffffff; }
     .navbar, footer { background-color: #003f3f; }
+    .navbar { position: fixed; top: 0; width: 100%; z-index: 1000; }
+    header { padding-top: 100px; }
     .btn-custom { background-color: #00b8b8; color: #0f1a2c; font-weight: bold; }
     .section-padding { padding: 4rem 0; }
     .card { background: #1a2a3a; border: none; color: #fff; }
     .card h5 { color: #00b8b8; }
     .form-control, .form-label { color: #000; }
-    .logo { max-width: 200px; height: auto; }
+    .logo { max-width: 180px; height: auto; }
+    .bg-info { background-color: #00b8b8 !important; color: #0f1a2c !important; }
+    h1, .lead { color: #0f1a2c; }
   </style>
 </head>
 <body>
@@ -35,7 +39,7 @@
     </div>
   </nav>
 
-  <header class="bg-info text-dark text-center py-5">
+  <header class="bg-info text-center py-5">
     <div class="container">
       <h1 class="display-4">MaxPTech Consulting</h1>
       <p class="lead">Soluções em infraestrutura, automação e monitorização</p>
